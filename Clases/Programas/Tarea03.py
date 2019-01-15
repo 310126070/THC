@@ -9,7 +9,7 @@ def diana(x,y):
             if ( x >= 5 and x < 25 ) and ( y < 10 or y >= 30 ):
                 return (7)
             else:
-                if pow ( x-15. ,2 ) + pow ( x-20. ,2 ) < 100:
+                if pow ( x-15. ,2 ) + pow ( y-20. ,2 ) < 100:
                     return (10)
                 else:
                     return (100) 
