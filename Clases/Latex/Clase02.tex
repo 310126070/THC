@@ -1,0 +1,71 @@
+%\documentclass{article}
+\documentclass[etterpaper, 12pt, oneside]{article}%formatea el documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\graphicspath{{Imágenes/}}
+
+%Aquí inicia la portada del documento
+\title{\Huge Taller de herramientas computacionales}
+\author{Fernando Moctezuma Soto}
+\date{16/enero/2019}
+
+\begin{document}
+	\maketitle
+	%includegraphics[scale=0.40]{1.jpg}
+	
+	\newpage
+	
+	\title{\Huge Notas del curso\\}
+	
+	\textbf{Clase del 8 de enero.}\\
+	
+	Se comenzó con Git, que es un sistema de control de versiones gratuito y de código abierto. Los pasos en la configuración y los comandos de Git son:\\
+
+	
+	\textbf{Inicio.}
+	
+	Configuración de la información del usuario utilizada en todos los repositorios locales
+	
+	git config --global user.name:
+	Establece un nombre que sea identificable cuando se revise el historial de versiones.
+	
+	git config --global user.email:
+	Establecer una dirección de correo electrónico que se asociará con el de historial.\\
+	
+	\textbf{Cofiguración.}
+	
+	Configurando la información del usuario, inicializando y clonando repositorios.de confirmación
+	
+	git init:
+	Inicializa un directorio existente como un repositorio Git.
+	
+	git clone:
+	Recupera un repositorio completo desde una ubicación alojada a través de URL.\\
+	
+	\textbf{Instantáneas.}
+	
+	Instantáneas y preparación de Git.
+	
+	git status:
+	muestra los archivos modificados en el directorio de trabajo.
+	
+	git add:
+	Agrega un archivo a la próxima confirmación.
+	
+	git commit -m: 
+	confirma el contenido como una nueva instantánea.\\
+	
+	\textbf{Actualización.}
+	
+	Recuperar actualizaciones de otro repositorio y actualizar repositorios locales.
+	
+	git push:
+	Transmite datos locales, se sincroniza con la rama del repositorio remoto.
+	
+	git pull:
+	Busca y combinar cualquier confirmación desde la rama remota de seguimiento.
+	
+\end{document}
