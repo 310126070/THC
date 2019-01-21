@@ -1,0 +1,54 @@
+%\documentclass{article}
+\documentclass[etterpaper, 12pt, oneside]{article}%formatea el documento
+\usepackage{amsmath}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\graphicspath{{Imagenes/}}
+
+%Aquí inicia la portada del documento
+\title{\Huge Taller de herramientas computacionales}
+\author{Fernando Moctezuma Soto}
+\date{20/enero/2019}
+
+\begin{document}
+	\maketitle
+	
+	\begin{center}
+		\includegraphics[scale=0.40]{1.jpg}
+	\end{center}
+	
+	\newpage
+	
+	\title{\Huge Notas del curso\\}
+	
+	\textbf{Clase del 17 de enero.}\\
+	
+	
+	Se vió el procedimiento para resolver el problema del MCD, en un programa de Python la función aparece definida como:
+	
+	\begin{verbatim}
+	def MCD(a,b):
+		if a<b:
+			tmp=b
+			b=a
+			a=tmp
+		r=a%b
+		while r!=0:
+			a=b
+			b=r
+			r=a%b
+		return b
+	\end{verbatim}
+	
+	Tras \textbf{if} se indican los pasos para encontrar el valor de la función y tras \textbf{while} están los pasos para llegar al valor buscado.
+	
+	Desde el \emph{shell} se pueden crear comandos y utilizarlos en la línea de comandos.
+	
+	
+	
+
+	
+\end{document}

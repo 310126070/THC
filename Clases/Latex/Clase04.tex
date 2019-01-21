@@ -1,0 +1,73 @@
+%\documentclass{article}
+\documentclass[etterpaper, 12pt, oneside]{article}%formatea el documento
+\usepackage{amsmath}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\graphicspath{{Imagenes/}}
+
+%Aquí inicia la portada del documento
+\title{\Huge Taller de herramientas computacionales}
+\author{Fernando Moctezuma Soto}
+\date{20/enero/2019}
+
+\begin{document}
+	\maketitle
+	
+	\begin{center}
+		\includegraphics[scale=0.40]{1.jpg}
+	\end{center}
+	
+	\newpage
+	
+	\title{\Huge Notas del curso\\}
+	
+	\textbf{Clase del 10 de enero.}\\
+	
+
+	
+	Se analizó y delimitó el problema de la función:
+	
+	$y(t)=V_{0}t-\frac{1}{2}gt^{2}$
+	
+	 al ver el rango de valores que interesa evaluar, de acuerdo a la pregunta de cuáles son los errores de sintaxis y lógicos. Se emplean la siguientes fórmulas cuando interesa saber la posición después de aventar una pelota:
+	
+	$V_{0}t-\frac{1}{2}gt^{2}=0$
+	
+	$t(V_{0}-\frac{1}{2}gt)=0$
+	
+	$V_{0}-\frac{1}{2}gt=0$
+	
+	$t=2\frac{V_{0}}{g}$
+	
+	$t\epsilon[0, 2\frac{V_{0}}{g}]$
+	
+	Al precisar los límites del problema, los errores lógicos se identifican por los resultados del análisis y delimitación.
+	
+	Para definir un problema en particular se requiere asignar valores específicos, como los siguientes:
+	
+	$t=3$
+	
+	$V_{0}=4\frac{m}{s}$
+	
+	$g=9.81$
+	
+	pero, $[0, 0.81]$
+	
+	Para
+	
+	$V_{0}=34$
+	
+	$[0, 0.81]$
+	
+	es decir, se encuentra dentro del rango y
+	
+	$y(3)=(34)(3)-\frac{1}{2}(9.81)(3^{2})=57.85$\\
+	
+	Cuando se esta escribiendo el la terminal, se puede presionar una vez tabulador para autocompletar, y dos veces para mostrar una lista de posibilidades con la terminación de cierto comando.
+	
+	Los IDE tienen un editor especializado para el lenguaje, intérprete y herraminetas para la depuración.	Un programa en Python es un archivo de texto plano que contiene instrucciones válidas para Python. Para comenzar a trabajar en Python 2.7.15 Shell, desde la terminal se escribe \emph{idle}. Se puede abrir un nuevo archivo presionando \emph{New File} y una vez que se le introduzcan instrucciones, se ejecuta en el shell con \emph{F5}.
+	
+\end{document}

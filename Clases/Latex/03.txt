@@ -1,4 +1,4 @@
-Paes para crear el repositorio en Linux
+Pasos para crear el repositorio en Linux
 1.En la página de Git Hub crear un usuario y crear el repositorio.
 2.Ingresar a la terminal en GNU/Linux y escribir los siguientes comandos:
 $cd Documentos

@@ -5,16 +5,19 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage[utf8]{inputenc}
-\graphicspath{{Imágenes/}}
+\graphicspath{{Imagenes/}}
 
 %Aquí inicia la portada del documento
 \title{\Huge Taller de herramientas computacionales}
 \author{Fernando Moctezuma Soto}
-\date{18/enero/2019}
+\date{20/enero/2019}
 
 \begin{document}
 	\maketitle
-	%includegraphics[scale=0.40]{1.jpg}
+	
+	\begin{center}
+		\includegraphics[scale=0.40]{1.jpg}
+	\end{center}
 	
 	\newpage
 	
@@ -22,88 +25,30 @@
 	
 	\textbf{Clase del 18 de enero.}\\
 	
-	Con ";" se separan comandos en el bash
+	Con "\textbf{;}" se separan comandos en el bash.
 	
-	>>> type(cadena)
-	<type 'str'>
-	>>> H=type(cadena)
-	>>> H
-	<type 'str'>
-	>>> H=type(cadena)._name_
-	>>> H
-	'str'
-	
-	C += iC equivale a C = C + iC
-	
-	Los resultados de expresiones lógicas son boolenaos
-	
-	Expresiones complejas como:
-	-1 < a <= 0
-	-1 < a and a <= 0
-	not (-1 < a <= 0-1 < a)
-	
-	Las cadenas son objetos.
-	Evaluación booleana de la cadena: debe contener caracteres para que sea True; ejemplo:
-	>>> cadena="esta es mi cadena"
-	>>> bool(cadena)
-	True
-	
-	Las listas aparecen entre corchetes, sin no tiene caracteres es sin elementos.
-	
-	>>> L = []
-	>>> if bool(L):
-			print L
-			
-	>>> L = [1, 4, 6]
-	>>> if bool(L):
-			print L
-			
-	[1, 4, 6]
-	
+	Las cadenas son objetos. La evaluación booleana de la cadena debe contener caracteres para que sea \emph{True}.
 	
 	Operaciones con listas:
-	A través del método append se agregan elementos a la lista; ejemplo:
-	>>> L.append(45)
-	>>> L
-	[1, 4, 6, 45]
+	A través del método \textbf{append()} se agregan elementos a la lista.
 	
-	Con la función len() se conoce el número de elementos de una lista; ejemplo:
-	>>> len(L)
+	Con la función \textbf{len()} se conoce el número de elementos de una lista.
 	
-	Nombre de la lista seguido del n-ésimo elemento de la lista entre corchetes muestra el objeto; ejemplo: 
-	>>> L[45]
+	El nombre de la lista seguido del n-ésimo elemento de la lista entre corchetes muestra el objeto.
 	
-	También se ven los métodos: insert, pop, extend (requieren especificar índice)
+	También se ven los métodos \emph{insert, pop, extend} cuya forma y papel son los siguientes:
 	
-	Ingresar y sacar elementos de una lista
+	list.\textbf{insert}(i, x): inserta un elemento en una posición dada.
 	
-	La posición es el índice más un elemento
+	list.\textbf{pop}([i]): elimina el elemento en la posición dada y lo devuelve.
 	
-	Investigar métodos relacionados con listas y guardar en:
-	ListasS.py
+	list.\textbf{extend}(L): amplía la lista agregando todos lo elementos de la lista dada.
 	
-	gradosC = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
+	La posición es el índice más un elemento.
 	
-	>>> for C in gradosC:
-			print 'Elemento de la lista: ', C
-			
-	>>> print 'La lista grados tiene', len(C), 'elementos'
-	
-	Se vió for, 
-	range: crea una lista con los índices correspondientes a una lista, con un argumento,
-	con dos: los índices desde el primer valor al ()n-1)-valor y con tres, el tercer valor es el incremento del primer al segundo.
-	
-	Cómo programar, Deitel
-	
-	A partir de gradosC = [-20]
-	con while appen len hacer la lista de -20 a 30 con incremento de 2.5:
-	
-	while L[len(L)-1] !=30:
-		L.append(L[len(L)-1]+2.5)
+	\textbf{range}: crea una lista con los índices correspondientes a una lista, con un argumento; con dos, los índices desde el primer valor al (n-1)-ésimo valor, y con tres, el tercer valor que se incrementa del primero al segundo.
 		
-	hacer lista con flotante que avance desde el primer valor hasta el segundo valor, definida como
-	rangeF(-30,31,20.5)
-	guardado en utils
+	Tarea: hacer lista con valores flotantes que avance desde el primer valor hasta el segundo valor, definida como rangeF(-30,31,20.5) y guardar como \emph{utils}.
 	
 	
 \end{document}
