@@ -10,11 +10,11 @@ Programa que imprime el promedio
 '''
 
 
-from Problema6 import suma
+from Problema8 import factorial
 
-a = input("Introducir el número de elementos a promediar: ")
+n = input("Introducir número: ")
 
-print "La suma de estos números es %g" % (suma(a))
+print "La factorial de %d es %d" % (n,factorial(n))
 
 
 

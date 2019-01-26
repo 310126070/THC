@@ -15,4 +15,4 @@ from Problema7 import H_eps
 x = input("Introducir primer número: ")
 
 
-print "El %d" % (H_eps(x,eps=0.01))
+print "El %g" % (H_eps(x,eps=0.01))

@@ -16,6 +16,6 @@ def H_eps(x,eps=0.01):
     if x < -eps:
         return 0
     elif x >= -eps and x <= eps:
-        return 1/2.0 + x/(2*eps) + 1/(2*eps)*(sin(pi*x/eps))
-    elif x > eps:
+        return 1/2 + x/(2*eps) + 1/(2*eps)*(sin(pi*x/eps))
+    else:
          return 1

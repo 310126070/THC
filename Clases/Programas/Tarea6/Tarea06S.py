@@ -10,7 +10,7 @@ Programa que calcula la integral de 2x + 5^2 - 6x^3 + 12
 '''
 
 
-from Tarea04 import integral
+from Tarea06 import integral
 
 a = input('Inicio del intervalo: ')
 b = input('Final del intervalo: ')
