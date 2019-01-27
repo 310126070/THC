@@ -6,15 +6,15 @@ Moctezuma Soto, Fernando
 310126070
 Taller de herramientas computacionales
 
-Programa que imprime el promedio 
+Programa que imprime el promedio de 10 números
 '''
 
 
 from Problema6 import suma
 
-a = input("Introducir el número de elementos a promediar: ")
+su = input("Introducir el 1° número: ")
 
-print "La suma de estos números es %g" % (suma(a))
+print "El promedio de estos números es %g" % (suma(su))
 
 
 

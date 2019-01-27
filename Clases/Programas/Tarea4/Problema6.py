@@ -6,17 +6,17 @@ Moctezuma Soto, Fernando
 310126070
 Taller de herramientas computacionales
 
-Programa que calcula el promedio 
+Programa que calcula el promedio de 10 números
 '''
 
-def suma(a):   
-    i = 1
+def suma(su):   
+    i = 2
     s = 0.0
-    while i <= a:
-        su = input("Introducir el %d° número: " % (i))
+    while i <= 10:
         s = s + su
+        su = input("Introducir el %d° número: " % (i))
         i = i + 1
-    return s / a
+    return s / 10
         
     
 
