@@ -10,11 +10,10 @@ Programa que imprime el promedio de 10 números
 '''
 
 
-from Problema6 import suma
+from Problema7 import prom_min_max
 
-su = input("Introducir el 1° número: ")
+numero = input("Introducir el 1° número: ")
 
-print "El promedio de estos números es %s" % (suma(su))
-
+print prom_min_max(numero)
 
 
